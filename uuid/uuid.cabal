@@ -20,6 +20,7 @@ tested-with:
    || ==9.8.4
    || ==9.10.1
    || ==9.12.2
+   || ==9.14.1
 
 synopsis:
   For creating, comparing, parsing and printing Universally Unique Identifiers
@@ -50,7 +51,7 @@ library
     , network-info     >=0.2      && <0.3
     , random           >=1.2.1.2  && <1.4
     , text             >=1.2.3.0  && <1.3  || >=2.0 && <2.2
-    , time             >=1.4      && <1.15
+    , time             >=1.4      && <1.16
 
   -- strict dependency on uuid-types,
   -- as we re-rexport datatype, thus leak instances etc.
